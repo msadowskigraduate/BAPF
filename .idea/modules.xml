@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Documents-bapf.iml" filepath="$PROJECT_DIR$/.idea/modules/Documents-bapf.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Documents-bapf_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Documents-bapf_main.iml" group="bapf" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Documents-bapf_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Documents-bapf_test.iml" group="bapf" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bapf.iml" filepath="$PROJECT_DIR$/.idea/modules/bapf.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bapf_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bapf_main.iml" group="bapf" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bapf_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bapf_test.iml" group="bapf" />
