@@ -12,19 +12,10 @@ import java.util.Set;
  */
 public class ConsoleUtils {
     private static final String ANSI_RESET = "\u001B[0m";
-    private static final String ANSI_BLACK = "\u001B[30m";
     private static final String ANSI_RED = "\u001B[31m";
-    private static final String ANSI_GREEN = "\u001B[32m";
     private static final String ANSI_YELLOW = "\u001B[33m";
-    private static final String ANSI_BLUE = "\u001B[34m";
-    private static final String ANSI_PURPLE = "\u001B[35m";
     private static final String ANSI_CYAN = "\u001B[36m";
     private static final String ANSI_WHITE = "\u001B[37m";
-    private static final String HOME;
-
-    static {
-        HOME = System.getenv("HOME");
-    }
 
     public static void printArticulationPoints(Set<Vertex> points) {
         StringBuilder builder = new StringBuilder("");
@@ -38,6 +29,13 @@ public class ConsoleUtils {
         printLineSeparator();
         System.out.println(ANSI_WHITE + "HELP" + ANSI_RESET);
         printLineSeparator();
+        System.out.println("Run one of the available commands (1 OR 2) by choosing correct path to your source");
+        System.out.println("text file. The file has to have special encoding described in README.md in order for");
+        System.out.println("the application to work correctly.");
+        printEmptyLine();
+        System.out.println("For any possible issues please refer to: ");
+        printGit();
+        printLineSeparator();
     }
 
     public static void printBridges(Set<Edge> edgeSet) {
@@ -45,10 +43,6 @@ public class ConsoleUtils {
         edgeSet.forEach(x -> result.append(x.toString()).append("\n"));
         System.out.println("Identified following bridges: ");
         System.out.println(result.toString());
-    }
-
-    public static void printSysCheck() {
-        System.out.println("Home directory: " + HOME);
     }
 
     public static void printError(String msg) {
@@ -63,7 +57,6 @@ public class ConsoleUtils {
         printEmptyLineInBrackets();
         printEmptyLineInBrackets();
         printLineSeparator();
-        printSysCheck();
         printReadMe();
     }
 
