@@ -2,5 +2,4 @@ language: java
 sudo: false
 before_install:
  - chmod +x gradlew
-script:
- - chmod +x ./gradlew build connectedCheck
+script: gradlew clean build connectedCheck
