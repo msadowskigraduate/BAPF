@@ -1,5 +1,5 @@
-# BAPF 
-[![Build Status](https://travis-ci.org/msadowskigraduate/BAPF.svg?branch=feature%2Fdfs)](https://travis-ci.org/msadowskigraduate/BAPF)
+# BAPF [![Build Status](https://travis-ci.org/msadowskigraduate/BAPF.svg?branch=feature%2Fdfs)](https://travis-ci.org/msadowskigraduate/BAPF)
+
 Bridge and Articulation Point Finder
 
 ### Installation
