@@ -8,20 +8,12 @@ import java.util.*;
  * Created by sadowsm3 on 02.06.2018
  */
 public class Graph {
-    private Integer vertices;
     private List<Edge> edgeList;
     private Map<Long, Vertex> vertexList;
 
     public Graph() {
         this.vertexList = new HashMap<>();
         this.edgeList = new ArrayList<>();
-    }
-
-    public Graph(Integer vertices) {
-        this.vertices = vertices;
-        this.vertexList = new HashMap<>();
-        this.edgeList = new ArrayList<>();
-
     }
 
     public Vertex addVertex(long id) {
