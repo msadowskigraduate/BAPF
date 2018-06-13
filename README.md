@@ -25,7 +25,7 @@ example for Windows:
 
 `C:/<USER>/Documents/mygraphfile.txt`
 
-(Unix solution are untested but may or may not work)
+(Unix based operating systems were untested but may or may not work)
 
 The graph for analysis has to be in the following format:
 ```
